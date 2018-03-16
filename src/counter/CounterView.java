@@ -39,16 +39,15 @@ public class CounterView implements java.util.Observer {
 		HBox root = new HBox();
 		//Set some padding around the HBox
 		root.setPadding(new Insets(10));
-		//TODO Align components in center of the HBox
+		// Align components in center of the HBox
 		root.setAlignment(Pos.CENTER);
 		// The label that will show the counter value.
 		label = new Label("   ");
 		// make the label big enough
 		label.setPrefWidth(144);
-		//TODO Make the text BIG. Use setFont to create a font.
-		//TODO Be careful to import the correct Font class (not java.awt.Font).
+		// Make the text BIG. Use setFont to create a font.
 		label.setFont(new Font("Arial", 80.0));
-		//TODO Set the text alignment to CENTER
+		//Set the text alignment to CENTER
 		label.setAlignment(Pos.CENTER);
 		// Add the label to the HBox.  You can all more components, too.
 		root.getChildren().add(label);
