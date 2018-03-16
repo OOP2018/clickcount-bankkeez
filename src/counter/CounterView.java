@@ -37,7 +37,7 @@ public class CounterView implements java.util.Observer {
 		stage = new Stage();
 		// components and containers for our window
 		HBox root = new HBox();
-		//TODO Set some padding around the HBox
+		//Set some padding around the HBox
 		root.setPadding(new Insets(10));
 		//TODO Align components in center of the HBox
 		root.setAlignment(Pos.CENTER);
